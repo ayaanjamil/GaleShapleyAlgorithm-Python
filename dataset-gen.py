@@ -1,4 +1,6 @@
 import random
+import json
+
 menPref = {}
 womenPref = {}
 
@@ -18,3 +20,10 @@ for i in range(n):
     womenPref[f"woman{i+1}"] = x
 
 print(womenPref)
+
+
+data = json.load(open("d.json"))
+data["men"] = menPref
+data["women"] = womenPref
+with open("d.json", "w") as f:
+    json.dump(data, f, indent=4)

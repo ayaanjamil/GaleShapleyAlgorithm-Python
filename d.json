@@ -1,0 +1,76 @@
+{
+    "men": {
+        "man1": [
+            "woman1",
+            "woman3",
+            "woman2",
+            "woman4",
+            "woman5"
+        ],
+        "man2": [
+            "woman4",
+            "woman3",
+            "woman5",
+            "woman2",
+            "woman1"
+        ],
+        "man3": [
+            "woman2",
+            "woman5",
+            "woman3",
+            "woman4",
+            "woman1"
+        ],
+        "man4": [
+            "woman3",
+            "woman5",
+            "woman1",
+            "woman4",
+            "woman2"
+        ],
+        "man5": [
+            "woman5",
+            "woman4",
+            "woman3",
+            "woman2",
+            "woman1"
+        ]
+    },
+    "women": {
+        "woman1": [
+            "man5",
+            "man2",
+            "man4",
+            "man3",
+            "man1"
+        ],
+        "woman2": [
+            "man4",
+            "man5",
+            "man1",
+            "man3",
+            "man2"
+        ],
+        "woman3": [
+            "man2",
+            "man3",
+            "man5",
+            "man1",
+            "man4"
+        ],
+        "woman4": [
+            "man3",
+            "man4",
+            "man5",
+            "man2",
+            "man1"
+        ],
+        "woman5": [
+            "man2",
+            "man1",
+            "man3",
+            "man5",
+            "man4"
+        ]
+    }
+}
