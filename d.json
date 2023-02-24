@@ -1,76 +1,246 @@
 {
     "men": {
         "man1": [
-            "woman1",
+            "woman9",
             "woman3",
+            "woman6",
+            "woman5",
             "woman2",
             "woman4",
-            "woman5"
+            "woman8",
+            "woman10",
+            "woman1",
+            "woman7"
         ],
         "man2": [
+            "woman1",
             "woman4",
+            "woman8",
+            "woman7",
+            "woman9",
+            "woman10",
             "woman3",
-            "woman5",
             "woman2",
-            "woman1"
+            "woman5",
+            "woman6"
         ],
         "man3": [
-            "woman2",
-            "woman5",
-            "woman3",
+            "woman8",
+            "woman6",
+            "woman9",
             "woman4",
+            "woman10",
+            "woman7",
+            "woman2",
+            "woman3",
+            "woman5",
             "woman1"
         ],
         "man4": [
-            "woman3",
-            "woman5",
             "woman1",
+            "woman6",
+            "woman8",
+            "woman10",
             "woman4",
-            "woman2"
+            "woman2",
+            "woman3",
+            "woman7",
+            "woman9",
+            "woman5"
         ],
         "man5": [
-            "woman5",
+            "woman9",
             "woman4",
             "woman3",
             "woman2",
+            "woman5",
+            "woman8",
+            "woman10",
+            "woman7",
+            "woman6",
             "woman1"
+        ],
+        "man6": [
+            "woman1",
+            "woman3",
+            "woman10",
+            "woman4",
+            "woman9",
+            "woman2",
+            "woman8",
+            "woman7",
+            "woman6",
+            "woman5"
+        ],
+        "man7": [
+            "woman1",
+            "woman5",
+            "woman4",
+            "woman9",
+            "woman3",
+            "woman8",
+            "woman6",
+            "woman7",
+            "woman10",
+            "woman2"
+        ],
+        "man8": [
+            "woman7",
+            "woman4",
+            "woman3",
+            "woman2",
+            "woman6",
+            "woman5",
+            "woman10",
+            "woman9",
+            "woman8",
+            "woman1"
+        ],
+        "man9": [
+            "woman3",
+            "woman2",
+            "woman9",
+            "woman1",
+            "woman10",
+            "woman5",
+            "woman7",
+            "woman6",
+            "woman8",
+            "woman4"
+        ],
+        "man10": [
+            "woman7",
+            "woman6",
+            "woman1",
+            "woman3",
+            "woman9",
+            "woman8",
+            "woman5",
+            "woman2",
+            "woman4",
+            "woman10"
         ]
     },
     "women": {
         "woman1": [
-            "man5",
-            "man2",
+            "man1",
+            "man7",
+            "man9",
+            "man6",
             "man4",
-            "man3",
-            "man1"
+            "man10",
+            "man2",
+            "man5",
+            "man8",
+            "man3"
         ],
         "woman2": [
-            "man4",
-            "man5",
             "man1",
+            "man10",
+            "man7",
+            "man9",
+            "man8",
             "man3",
-            "man2"
+            "man5",
+            "man2",
+            "man4",
+            "man6"
         ],
         "woman3": [
+            "man10",
+            "man1",
+            "man3",
+            "man6",
+            "man9",
+            "man8",
+            "man7",
+            "man4",
             "man2",
+            "man5"
+        ],
+        "woman4": [
+            "man4",
+            "man7",
+            "man5",
+            "man2",
+            "man10",
+            "man9",
+            "man6",
+            "man1",
+            "man3",
+            "man8"
+        ],
+        "woman5": [
+            "man7",
+            "man3",
+            "man10",
+            "man4",
+            "man1",
+            "man9",
+            "man5",
+            "man2",
+            "man8",
+            "man6"
+        ],
+        "woman6": [
+            "man9",
+            "man7",
+            "man4",
             "man3",
             "man5",
             "man1",
-            "man4"
+            "man6",
+            "man2",
+            "man10",
+            "man8"
         ],
-        "woman4": [
+        "woman7": [
             "man3",
             "man4",
             "man5",
+            "man7",
             "man2",
+            "man8",
+            "man9",
+            "man6",
+            "man10",
             "man1"
         ],
-        "woman5": [
+        "woman8": [
+            "man6",
+            "man1",
+            "man5",
+            "man9",
+            "man10",
+            "man7",
+            "man8",
             "man2",
+            "man3",
+            "man4"
+        ],
+        "woman9": [
+            "man9",
+            "man5",
+            "man4",
+            "man1",
+            "man6",
+            "man2",
+            "man8",
+            "man3",
+            "man7",
+            "man10"
+        ],
+        "woman10": [
+            "man4",
+            "man2",
+            "man5",
             "man1",
             "man3",
-            "man5",
-            "man4"
+            "man8",
+            "man10",
+            "man7",
+            "man6",
+            "man9"
         ]
     }
 }

@@ -1,16 +1,28 @@
 import matplotlib.pyplot as plt
 import networkx as nx
+import json
+import re
+
+
+def sorted_nicely(l):
+    """ Sort the given iterable in the way that humans expect."""
+    def convert(text): return int(text) if text.isdigit() else text
+
+    def alphanum_key(key): return [convert(c)
+                                   for c in re.split('([0-9]+)', key)]
+    return sorted(l, key=alphanum_key)
+
 
 G = nx.Graph()
 
-x = {'man1': 'woman1', 'man2': 'woman4',
-     'man3': 'woman2', 'man4': 'woman3', 'man5': 'woman5'}
+data = json.load(open("matches.json"))
+x = data["data"]
 
 women = []
 
 for i in x.values():
     women.append(i)
-women.sort()
+women = sorted_nicely(women)
 
 
 positions = {}

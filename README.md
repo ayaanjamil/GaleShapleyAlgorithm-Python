@@ -1,1 +1,0 @@
-# GaleShapleyAlgorithm-Python

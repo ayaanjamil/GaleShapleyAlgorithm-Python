@@ -50,3 +50,8 @@ def main():
 initialize()
 main()
 print(wifeof)
+
+data = json.load(open("matches.json"))
+data["data"] = wifeof
+with open("matches.json", "w") as f:
+    json.dump(data, f, indent=4)
